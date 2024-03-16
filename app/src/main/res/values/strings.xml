@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">QUIZ1</string>
+    <string name="detail_total_harga">Total Harga: %s</string>
+
+</resources>

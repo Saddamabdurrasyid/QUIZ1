@@ -1,0 +1,85 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="QUIZ 1 SADDAM ABDURRASYID"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#1100FF"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize" />
+
+
+
+    <EditText
+        android:id="@+id/et_nama_pembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan nama pembeli" />
+
+    <EditText
+        android:id="@+id/et_item_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan kode barang" />
+
+    <EditText
+        android:id="@+id/et_item_quantity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan jumlah barang (pcs)" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupMembership"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rbGold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gold"
+            android:textColor="#001AFF"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/rbSilver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Silver"
+            android:textColor="#001AFF"/>
+
+        <RadioButton
+            android:id="@+id/rbBronze"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bronze"
+            android:textColor="#001AFF"/>
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Checkout" />
+
+    <TextView
+        android:id="@+id/tv_total_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+</LinearLayout>

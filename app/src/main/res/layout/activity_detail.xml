@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".DetailActivity">
+
+    <TextView
+        android:id="@+id/tv_nama_pembeli"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama Pembeli:"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_jenis_keanggotaan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Jenis Keanggotaan:"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:layout_marginBottom="25dp" />
+
+
+
+    <TextView
+        android:id="@+id/tv_detail_barang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Detail Barang:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_harga_satuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Harga Satuan :"
+        android:textStyle="bold"/>
+
+
+    <TextView
+        android:id="@+id/tv_diskon_member"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Diskon Member:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_cashback"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cashback:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_total_diskon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Diskon:"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_total_harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Harga:"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btn_share"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:layout_gravity="center"
+        android:layout_centerInParent="true"/>
+
+
+</LinearLayout>
